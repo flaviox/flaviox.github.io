@@ -5,7 +5,15 @@ date:       2016-07-08
 summary:    Hello World by Delphi, Java e PHP
 categories: programacao
 ---
-
-ShowMessage('Hello world'); <br><br>
-System.Out.Println("Hello World"); <br><br>
-echo "Hello World";<br><br>
+Delphi
+{% highlight delphi %}
+ShowMessage('Hello world'); 
+{% endhighlight %}<br><br>
+Java
+{% highlight java %}
+System.Out.Println("Hello World");
+{% endhighlight %}<br><br>
+PHP
+{% highlight php %}
+echo "Hello World";
+{% endhighlight %}<br><br>
