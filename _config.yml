@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Flavio Neves
+email:       contato@flaviox.com.br
+author:      Flavio Neves
+description: "Desenvolvedor de software com experiencia em Delphi, Java e PHP."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://flaviox.com.br"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -66,35 +66,35 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: 'Novos'
+    older: 'Antigos'
   share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
+    text:         'Compartilhe este post!'
+    facebook:     'Compartilhe no Facebook'
+    twitter:      'Compartilhe no Twitter'
+    googleplus:   'Compartilhe no Google+'
+    linkedin:     'Compartilhe no LinkedIn'
+    digg:         'Compartilhe no Digg'
+    tumblr:       'Compartilhe no Tumblr'
+    reddit:       'Compartilhe no Reddit'
+    stumbleupon:  'Compartilhe no StumbleUpon'
+    hackernews:   'Compartilhe no Hacker News'
   post:
-    updated:        'Updated'
+    updated:        'Atualizado'
     minute_read:    'minute read'
-    related_posts:  'Related Posts'
+    related_posts:  'Posts relacionados'
   index:
-    coming_soon: 'Coming soon...'
+    coming_soon: 'Em breve...'
   contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    email:    'Endereço de email'
+    content:  'O que você gostaria de dizer?'
+    subject:  'Assunto!'
+    submit:   'Diga Olá!'
     ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+      sending:  'Enviando..'
+      sent:     'Mensagem enviada!'
+      error:    'Erro!'
+  thanks: 'Obrigado por me contactar. Responderei o mais breve possível.'
   og_locale: 'en_US'
 
 # Build settings
