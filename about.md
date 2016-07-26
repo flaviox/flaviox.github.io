@@ -16,4 +16,4 @@ Tenho estudado também sobre JavaScript tanto front-end como back-end.
 Escreverei nesse blog sobre os mais variados assuntos principalmente dicas de desenvolvimento (Delphi, Java, JavaScript, PHP etc) e seus frameworks.
 
 Caso tenha alguma pergunta, comentário ou qualquer coisa sinta se livre a me mandar um email:
-contato@flaviox.com.br
+flavio.sinop@gmail.com
