@@ -14,36 +14,36 @@ resumo: >
 ---
 
 Neste primeiro post vou mostrar como fazer uma requisição e trabalhar com as informações retornada de uma forma bem simples. 
-Como exemplo irei utilizar [link](https://correiosapi.apphb.com/){:target="_blank"} uma API que passado um CEP nos retorna o nome da rua, bairro etc.
+Como exemplo irei utilizar [CorreiosAPI](https://correiosapi.apphb.com/){:target="_blank"} uma API que passado um CEP nos retorna o nome da rua, bairro etc.
 
 
 Mãos na massa!
 
-Vamos criar o projeto
-
+Vamos criar o projeto  
+  
 **File > New > VCL Forms Applications - Delphi**
-
-**1º Vamos colocar os componentes necessários na tela.**
-    - TRESTClient
-    - TRESTRequest
-    - TRESTResponse
-    - TClientDataset
-    - TRESTResponseDataSetAdapter
-    - TEdit (Um que iremos digitar o CEP e outros 3 para mostrar as informações)
-    - TButton (Botão que iremos programar a requisição)
+  
+**1º Vamos colocar os componentes necessários na tela.**   
+     - TRESTClient  
+     - TRESTRequest  
+     - TRESTResponse  
+     - TClientDataset  
+     - TRESTResponseDataSetAdapter  
+     - TEdit (Um que iremos digitar o CEP e outros 3 para mostrar as informações)  
+     - TButton (Botão que iremos programar a requisição)  
 
 ![Imagem]({{ page.image }})
 
-**2º Agora vamos a configuração necessária utilizando o Object Inspector.**
+**2º Agora vamos a configuração necessária utilizando o Object Inspector.**  
 	
-	- TRESTClient
-		__BaseURL:__ http://correiosapi.apphb.com/cep/{parametro}
-	
-	- TRESTResponseDataSetAdapter
-		__Dataset:__ ClientDataSet1
-
+	- TRESTClient  
+		__BaseURL:__ http://correiosapi.apphb.com/cep/{parametro}  
+	  
+	 - TRESTResponseDataSetAdapter  
+		__Dataset:__ ClientDataSet1  
+  
 * Os demais componentes configura de forma automática as ligações(Bindings) entre eles.
-
+  
 **3º Programação do botão**
 
 {% highlight delphi %}
