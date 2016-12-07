@@ -4,7 +4,7 @@ title:  "Trabalhando com componentes da paleta REST do Delphi XE7"
 date:   2016-12-07
 categories: delphi
 tags: [delphi]
-image: images/tela.png
+image: /images/tela.png
 keywords:
 related:
   - title: Correios RESTful API
@@ -24,7 +24,7 @@ Vamos criar o projeto
 **File > New > VCL Forms Applications - Delphi**
 
 **1º Vamos colocar os componentes necessários na tela.**
-	- TRESTClient
+    - TRESTClient
     - TRESTRequest
     - TRESTResponse
     - TClientDataset
@@ -36,16 +36,16 @@ Vamos criar o projeto
 
 **2º Agora vamos a configuração necessária utilizando o Object Inspector.**
 	- TRESTClient
-		BaseURL: http://correiosapi.apphb.com/cep/{parametro}
+		__BaseURL:__ http://correiosapi.apphb.com/cep/{parametro}
 	
 	- TRESTResponseDataSetAdapter
-		Dataset: ClientDataSet1
+		__Dataset:__ ClientDataSet1
 
 * Os demais componentes configura de forma automática as ligações(Bindings) entre eles.
 
 **3º Programação do botão**
 
-```delphi
+{% highlight delphi %}
 procedure TForm1.btnBuscarClick(Sender: TObject);
 begin
   RESTClient1.Params[0].Value := edtCEP.Text;  //preenchemos o parametro que será submetido via metodo GET
@@ -57,10 +57,11 @@ begin
     edtCidade.Text := ClientDataset1.FieldByName('cidade').AsString + '/' + ClientDataset1.FieldByName('estado').AsString;
     end;
 end;
-```
+{% endhighlight %}
 
-Uma outra forma seria ao invés de utilizar um Dataset, criarmos nossa propria classe com os mesmos nomes dos campos de retorno, 
-```delphi
+Uma outra forma seria ao invés de utilizar um Dataset, criarmos nossa propria classe com os mesmos nomes dos campos de retorno.
+
+{% highlight delphi %}
   TEndereco = class(TObject)
   private
     FLogradouro: string;
@@ -99,9 +100,7 @@ begin
     Endereco.Free();
   end;
 end;
-
-
-```
+{% endhighlight %}
 
 
 
