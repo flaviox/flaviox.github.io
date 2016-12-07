@@ -24,21 +24,21 @@ Vamos criar o projeto
 **File > New > VCL Forms Applications - Delphi**
 
 **1º Vamos colocar os componentes necessários na tela.**
-    - TRESTClient
-    - TRESTRequest
-    - TRESTResponse
-    - TClientDataset
-    - TRESTResponseDataSetAdapter
-    - TEdit (Um que iremos digitar o CEP e outros 3 para mostrar as informações)
-    - TButton (Botão que iremos programar a requisição)
+    \- TRESTClient
+    \- TRESTRequest
+    \- TRESTResponse
+    \- TClientDataset
+    \- TRESTResponseDataSetAdapter
+    \- TEdit (Um que iremos digitar o CEP e outros 3 para mostrar as informações)
+    \- TButton (Botão que iremos programar a requisição)
 
 ![Imagem]({{ page.image }})
 
 **2º Agora vamos a configuração necessária utilizando o Object Inspector.**
-	- TRESTClient
+	\- TRESTClient
 		__BaseURL:__ http://correiosapi.apphb.com/cep/{parametro}
 	
-	- TRESTResponseDataSetAdapter
+	\- TRESTResponseDataSetAdapter
 		__Dataset:__ ClientDataSet1
 
 * Os demais componentes configura de forma automática as ligações(Bindings) entre eles.
