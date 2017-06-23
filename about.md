@@ -5,7 +5,7 @@ permalink: /about/
 tags: about
 ---
 
-Olá, me chamo Flavio Neves, sou desenvolvedor de software graduado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário de Maringá.
+Olá, me chamo Flavio Neves, sou desenvolvedor de software graduado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário de Maringá e pós graduando em Desenvolvimento de Aplicações WEB na PUC Minas.
 
 Iniciei minha carreira na área de programação em 2009 trabalhando com Delphi. Hoje trabalho principalmente com Delphi e PHP(Slim, Laravel), e com menor frequência em Java e Android.
 
